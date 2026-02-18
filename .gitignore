@@ -1,0 +1,17 @@
+# Ignore sensitive files
+Backend/appsettings.json
+Frontend/.env
+Frontend/node_modules
+Backend/bin
+Backend/obj
+Backend/publish/
+Frontend/dist/
+Frontend/.dist/
+**/*.log
+.DS_Store
+.vs/
+*.user
+
+# Data Files (Proprietary)
+Backend/course_mapping_all.json
+Frontend/major_minor_electives.json
